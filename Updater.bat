@@ -12,18 +12,18 @@ TASKKILL /IM "Project64 Netplay.exe" /F
 "Plugin/Updater/7z.exe" x main.zip
 cd Plugin
 cd GFX
-move GlideN64.ini ..\..\ /Y
+move GlideN64.ini ..\..\
 cd ..\..\
-rmdir Config /s /q
-rmdir Plugin /s /q
-rmdir Save /s /q
+rmdir Config /s
+rmdir Plugin /s
+rmdir Save /s
 cd Compiled-main
 move Config ..\
 move Plugin ..\
 move Save ..\
 move "Project64 Netplay.exe" ..\
 cd ..\
-rmdir Compiled-main /s /q
+rmdir Compiled-main /s
 DEL main.zip
 move GlideN64.ini Plugin\GFX
 move NRage.ini Config
