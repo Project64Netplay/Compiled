@@ -7,9 +7,9 @@ if /I "%c%" EQU "N" goto :Exit
 goto :Exit
 
 :Start
-TASKKILL /IM "Project64.exe" /F
+TASKKILL /IM "Project64 Netplay.exe" /F
 "Plugin/Updater/wget.exe" https://github.com/Project64Netplay/win32-Binaries/archive/refs/heads/main.zip
-"Plugin/Updater/7z.exe" x win32-Binaries-main.zip
+"Plugin/Updater/7z.exe" x main.zip
 cd Config
 move NRage.ini ..\
 move Project64.cfg ..\
@@ -30,7 +30,7 @@ move Plugin ..\
 move Save ..\
 move "Project64 Netplay.exe" ..\
 cd ..\
-rmdir win32-Binaries-main /s Q 
+rmdir win32-Binaries-main /s /q
 DEL main.zip
 move GlideN64.ini Plugin\GFX
 move NRage.ini Config
