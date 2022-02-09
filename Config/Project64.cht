@@ -6,8 +6,8 @@
 
 [Meta]
 Author=UnicorNora
-Version=1/29/22
-Date=2021/01/29
+Version=2/9/22
+Date=2021/02/09
 Homepage=https://discordapp.com/invite/sZ8FXcP
 
 //========== Mario Party 1 Cheats ==========
@@ -243,9 +243,12 @@ Cheat41_O=
 Cheat42="Mechanics - Same Space Duels Always Happen",D10661A8 2842,810661A8 3402,D10661AA 0005,810661AA 0001
 Cheat42_N=By Rain.
 Cheat42_O=
-Cheat43="Mechanics - Faster Map Scrolling",8106793E 40E0
+Cheat43="Mechanics - Same Space Duels Never Happen",D10661A8 2842,810661A8 3402,D10661AA 0005,810661AA 0000
 Cheat43_N=By Rain
 Cheat43_O=
+Cheat44="Mechanics - Faster Map Scrolling",8106793E 40E0
+Cheat44_N=By Rain
+Cheat44_O=
 Cheat4_N=By gamemasterplc.
 Cheat4_O=
 Cheat5="Board: Space Land - Laser Always Fires",D110EBE4 1440,8110EBE4 2400
@@ -418,6 +421,9 @@ Cheat53_O=
 Cheat54="Mechanics - Same Space Duels Always Happen",D10FA850 2842,810FA850 3402,D10FA852 0005,810FA852 0001
 Cheat54_N=By Rain.
 Cheat54_O=
+Cheat55="Mechanics - Same Space Duels Never Happen",D10661A8 2842,810661A8 3402,D10661AA 0005,810661AA 0000
+Cheat55_N=By Rain.
+Cheat55_O=
 Cheat5_N=
 Cheat5_O=
 Cheat6="Board: Waluigi's Island - Island Space is Always",D10CE202 004D,810CD09A 00??
