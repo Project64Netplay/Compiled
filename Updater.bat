@@ -24,7 +24,7 @@ cd ..\..\
 rmdir Config /s /q
 rmdir Plugin /s /q
 rmdir Save /s /q
-cd project64-mpn-main
+cd win32-Binaries-main
 move Config ..\
 move Plugin ..\
 move Save ..\
