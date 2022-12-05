@@ -56,17 +56,17 @@ move netplay_input_plugin.ini ..\..\
 move NRage.ini ..\..\
 cd ..\..\
 rmdir Config /s /q
-rmdir Plugin/Audio /s /q
-rmdir Plugin/GFX /s /q
-rmdir Plugin/Input /s /q
-rmdir Plugin/RSP /s /q
+rmdir "Plugin/Audio" /s /q
+rmdir "Plugin/GFX" /s /q
+rmdir "Plugin/Input" /s /q
+rmdir "Plugin/RSP" /s /q
 rmdir Save /s /q
 cd win32-Binaries-main
 move Config ..\
-move Plugin\Audio ..\Plugin
-move Plugin\GFX ..\Plugin
-move Plugin\Input ..\Plugin
-move Plugin\RSP ..\Plugin
+move "Plugin\Audio" ..\Plugin
+move "Plugin\GFX" ..\Plugin
+move "Plugin\Input" ..\Plugin
+move "Plugin\RSP" ..\Plugin
 move Save ..\
 move "Project64-Netplay.exe" ..\
 cd ..\
